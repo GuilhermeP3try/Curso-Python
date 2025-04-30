@@ -1,0 +1,2 @@
+p = int(input('Digite um numero da tabuada, para exibila completa '))
+print ('{} x 1 = {}\n{} x 2 = {}\n{} x 3 = {}\n{} x 4 = {}\n{} x 5 = {}\n{} x 6 = {}\n{} x 7 = {}\n{} x 8 = {}\n{} x 9 = {}\n{} x 10 = {}'.format(p,p*1,p,p*2,p,p*3,p,p*4,p,p*5,p,p*6,p,p*7,p,p*8,p,p*9,p,p*10 ))

@@ -1,0 +1,7 @@
+nome =str (input('Digite o seu nome ')).strip ()
+print ('O seu nome em letras maiusculas ',nome.upper())
+print ('O seu nome em letras minusculas ',nome.lower())
+#sep = (nome.replace('',''))
+print ('Quantas letras tem o seu nome completo ',len(nome) - nome.count(' '))
+#pn = (nome.split()[0])
+print ('Quantas letras tem o seu primeiro nome ',nome.find(' '))

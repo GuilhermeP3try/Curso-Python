@@ -1,0 +1,1 @@
+a = input('Type Something ')
