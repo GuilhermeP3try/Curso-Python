@@ -1,5 +1,8 @@
 soma = 0
-p = int(input('Digite um numero: '))
-for num in range (0,7,2):
-     if  
-        print(soma)
+for c in range (1,7):
+     p = int(input('Digite um numero '))
+     if p %2 == 0:
+          soma += p
+print(soma)
+        
+      
