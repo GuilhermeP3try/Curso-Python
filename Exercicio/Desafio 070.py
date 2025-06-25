@@ -17,17 +17,11 @@ while True:
     if barato == 0 or preco < barato:
         barato = preco
         ba = nome
-
     if res == 'N':
         break
-    
-
-
-
-
-print ('-'*7,'FIM DO PROGRAMA', '-'*7)
+print ('-'*7,'FIM DO PROGRAMA','-'*7)
 print (f'O total da compra foi de R${total:.2f}')
-print(f'Temos {caro} produtos custando mais de R$1000')
+print(f'Temos {caro} produtos custando mais de R$1000.00')
 print(f'O produto mais barato {ba} que custa {barato:.2f}')
 
 
